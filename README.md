@@ -19,7 +19,7 @@ class Tutorial (object):
   def resend_packet (self, packet_in, out_port):
     """
     Instructs the switch to resend a packet that it had sent to us.
-    "packet_in" is the ofp_packet_in object the switch had sent to the
+    "packet_in" is  ofp_packet_in object the switch had sent to the
     controller due to a table-miss.
     """
     msg = of.ofp_packet_out()
